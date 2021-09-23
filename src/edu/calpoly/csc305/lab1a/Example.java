@@ -4,7 +4,7 @@ class Example {
   private String name;
   private int[] nums;
 
-  public void driver(String newName, int[] newNums) {
+  public Example(String newName, int[] newNums) {
     this.name = newName;
     nums = newNums;
   }
@@ -16,4 +16,4 @@ class Example {
   public int[] getNums() {
     return nums;
   }
-}  
+}
